@@ -1,0 +1,38 @@
+package en.botspark.telegrambots.bots.stripeBot.dict
+
+class PaymentBotDict {
+    companion object {
+        const val WELCOME_MESSAGE = "Welcome to the BotSpark Payment Bot! Here you can create projects and manage payments."
+        const val ACCEPT_TERMS_MESSAGE = "To continue using this bot, please accept our Terms of Service and Privacy Policy."
+        const val ACCEPT_TERMS_BUTTON = "Accept"
+        const val ACCEPT_TERMS_CALLBACK = "accept"
+        const val ACCEPTED_TERMS = "Thank you for accepting the terms."
+        const val DONT_HAVE_PROJECT = "You don't have any project yet. Please create a project first."
+        const val CREATE_PROJECT = "Create a new project"
+        const val CREATE_PROJECT_CALLBACK = "create_project"
+        const val CREATE_PROJECT_MESSAGE = "What would you like to do with %s?"
+        const val PROJECTS_MENU_OPTIONS = "What do you want to do?"
+        const val PAID_TELEGRAM_CHANNEL = "Paid Telegram Channel"
+        const val PAID_TELEGRAM_CHANNEL_CALLBACK = "paid_telegram_channel"
+        const val PAID_TELEGRAM_CHANNEL_MESSAGE = "Please create a private Telegram Channel and click Done when it's ready: "
+        const val PAID_TELEGRAM_GROUP = "Paid Telegram Group"
+        const val PAID_TELEGRAM_GROUP_CALLBACK = "paid_telegram_group"
+        const val PAID_TELEGRAM_GROUP_MESSAGE = "Please create a private Telegram Group and click Done when it's ready: "
+        const val MESSAGE_AFTER_CREATING_CHANNEL = "Please add this bot (@BotSparkStripeBot) to the channel admins. It needs Add Subscribers permission."
+        const val MESSAGE_AFTER_CREATING_GROUP = "Please add this bot (@BotSparkStripeBot) to the group admins. It needs Add Users permission."
+        const val DONE = "DONE"
+        const val DONE_CALLBACK_CHANNEL = "done_channel"
+        const val DONE_CALLBACK_GROUP = "done_group"
+        const val DONE_STEP3_CALLBACK_CHANNEL = "done_step3_channel"
+        const val DONE_STEP3_CALLBACK_GROUP = "done_step3_group"
+        const val STEP_4_MESSAGE = "To connect the channel, please forward a message (any) from the channel to this bot."
+        const val STEP_5_CURRENCY_MESSAGE = "What currency would you like to charge your customers in?"
+        const val STEP_5_MORE_CURRENCY_CALLBACK = "More"
+        const val STEP_6_MORE_PERIODS = "More_period"
+        const val MANAGE_PROJECTS = "Manage projects"
+        const val MANAGE_PROJECTS_CALLBACK = "manage_projects"
+        const val CHOOSE_PROJECT = "Choose project to manage"
+        const val MANAGE_PROJECT = "manage_project_"
+        const val GET_BOT_TOKEN = "Open a chat with @BotFather and create a new bot. After that, copy the token and paste it here."
+    }
+}
